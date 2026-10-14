@@ -1,0 +1,20 @@
+(
+echo node_modules/
+echo build/
+echo dist/
+echo coverage/
+echo .env
+echo .env.*
+echo !.env.example
+echo *.log
+echo npm-debug.log*
+echo backend/uploads/*
+echo !backend/uploads/.gitkeep
+echo .idea/
+echo .vscode/
+echo *.swp
+echo .DS_Store
+echo Thumbs.db
+echo desktop.ini
+echo .eslintcache
+) > .gitignore
